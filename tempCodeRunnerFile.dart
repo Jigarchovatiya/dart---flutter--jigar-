@@ -1,2 +1,0 @@
-
-  Arithmatic mul = Arithmatic();
