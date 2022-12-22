@@ -1,16 +1,19 @@
-class Bus {
-  void enginge() {
-    print("The bird can fly");
+class Bus 
+{
+  void enginge() 
+  {
+    print("The engine can start the vehicle ");
   }
 }
-
-class tata extends Bus {
-  void tire() {
-    print("The parrot can speak");
+class tata extends Bus 
+{
+  void tire() 
+  {
+    print("Tire can run the vehicle");
   }
 }
-
-void main() {
+void main() 
+{
   tata p = tata();
   p.enginge();
   p.tire();

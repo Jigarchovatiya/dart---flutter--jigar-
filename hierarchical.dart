@@ -1,35 +1,37 @@
-class Employee {  
-  void showName(String name) {  
+class Employee 
+{  
+  void showName(String name) 
+  {  
     print(name);  
-  }  
-  
-  void showJoiningYear(int age) {  
+  }    
+  void showJoiningYear(int age) 
+  {  
     print(age);  
   }  
-}  
-  
-class Harshad extends Employee {  
-   
-  void branch(String softwareEngineer) {  
+}    
+class Harshad extends Employee 
+{     
+  void branch(String softwareEngineer) 
+  {  
     print(softwareEngineer);  
   }  
+}    
+class Keyur extends Employee 
+{
+  void skill(String dataEntry)
+  {  
+      print(dataEntry); 
+  }  
 }  
+void main() 
+{         
+  Keyur k = Keyur();  
+  k.showName("Keyur");  
+  k.showJoiningYear(2019);  
+  k.skill("dataEntry");  
   
-class Keyur extends Employee {
-          void skill(String dataEntry){  
-              print(dataEntry);  
-}  
-}  
-void main() {  
-       
-      Keyur j = Keyur();  
-      j.showName("Keyur");  
-      j.showJoiningYear(2019);  
-      j.skill("dataEntry");  
-  
-      Harshad p = Harshad();  
-      p.showName("Harshad");  
-      p.showJoiningYear(2021);  
-      p.branch("Computer Science");  
-  
+  Harshad h = Harshad();  
+  h.showName("Harshad");  
+  h.showJoiningYear(2021);  
+  h.branch("Computer Science");    
 }  
