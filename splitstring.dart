@@ -1,6 +1,6 @@
 void main(){
-String split = "12345";
-List <dynamic> keywordsList = List();
+String split = "dog";
+List <String> keywordsList = List();
 String str = "";
 String str2 = "";
 for (int i = 0; i < split.length; i++) 
